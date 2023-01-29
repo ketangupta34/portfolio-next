@@ -1,3 +1,3 @@
 export default function FrontendPage() {
-  return <h1 className="text-blue-200">Ketan Gupta</h1>;
+  return <h1 className="text-blue-400 bg-red-400">Ketan Gupta </h1>;
 }

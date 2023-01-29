@@ -1,5 +1,15 @@
-import '@portfolio/styles/globals.css'
+import '@portfolio/styles/global.css';
+import Head from 'next/head';
 
 export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return (
+    <>
+      <Head>
+        <title>Ketan Gupta</title>
+        <link rel="shortcut icon" href="/reallybrief-favicon.png" />
+      </Head>
+
+      <Component {...pageProps} />
+    </>
+  );
 }
