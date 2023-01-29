@@ -2,7 +2,11 @@ module.exports = {
   darkMode: 'class',
   content: ['./src/**/*.js'],
   theme: {
-    extend: {},
+    extend: {
+      backdropBlur: {
+        xs: '2px',
+      },
+    },
   },
   plugins: [],
 };

@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { DarkModeSwitch } from 'react-toggle-dark-mode';
 
 export default function DarkModeToggle() {
   const [isThemeDark, setIsThemeDark] = useState(false);
@@ -12,10 +13,6 @@ export default function DarkModeToggle() {
   }, [isThemeDark]);
 
   return (
-    <input
-      type="checkbox"
-      checked={isThemeDark}
-      onChange={(e) => setIsThemeDark(e.target.checked)}
-    />
+    <DarkModeSwitch checked={isThemeDark} onChange={(c) => setIsThemeDark(c)} />
   );
 }
