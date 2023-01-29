@@ -6,7 +6,7 @@ export default function App({ Component, pageProps }) {
     <>
       <Head>
         <title>Ketan Gupta</title>
-        <link rel="ketangupta34.dev" href="/favicon.png" />
+        <link rel="shortcut icon" href="/favicon.png" />
       </Head>
 
       <Component {...pageProps} />

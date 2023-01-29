@@ -1,5 +1,3 @@
-import DarkModeToggle from '@frontend/dark-mode';
-
 export default function HomePage() {
   return (
     <div className="min-h-screen flex-center w-full flex-center">
