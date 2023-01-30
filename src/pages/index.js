@@ -3,7 +3,7 @@ import NavigationBar from '@frontend/navigation-bar';
 
 export default function Home() {
   return (
-    <div className="bg-white dark:bg-black text-black dark:text-white">
+    <div className="bg-color text-color ">
       <NavigationBar />
       <HomePage />
     </div>

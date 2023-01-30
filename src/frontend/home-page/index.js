@@ -1,8 +1,8 @@
 export default function HomePage() {
   return (
-    <div className="min-h-screen flex-center w-full flex-center">
+    <div className="min-h-screen flex-center w-full bg-home bg-no-repeat bg-center">
       <div className="w-6/12">
-        <h1 className="font-bold text-4xl">Ketan Gupta</h1>
+        <h1 className="font-bold text-4xl">Hi, I&apos;m Ketan Gupta</h1>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry standard dummy text ever
